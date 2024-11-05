@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* nav-top start */
+.top-nav {
+  background-color: rgb(7, 179, 55);
+  min-height: 10vh;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-nav li {
+  transition: 1s;
+  padding: 1.2rem;
+}
+.top-nav li:nth-last-child(1) {
+  padding: 0.2rem 1.2rem 0.1rem 1.2rem;
+}
+
+.top-nav li a {
+  color: #fff;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.top-nav li a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.top-nav img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  filter: saturate(0);
+}
+.top-nav img:hover {
+  filter: saturate(1);
+  transition: 0.5s;
+}
+/* nav-top End */
+
+/* nav lower start */
+.lower-nav {
+  background-color: rgb(194, 149, 25);
+  min-height: 10vh;
+  text-align: center;
+}
+.lower-nav .font1 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lower-nav .font2 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lower-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower-nav li {
+  padding-top: 1rem;
+  transition: 0.5s;
+}
+.lower-nav li:hover {
+  text-decoration: overline;
+}
+
+.lower-nav a {
+  color: #000;
+}
+
+/* nav lower End */
+
+/* Header start */
+.header {
+  background-image: url("images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  padding: 5rem 0;
+}
+
+.header .banner-area {
+  color: yellowgreen;
+  font-size: 2rem;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header .cart-area {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.header .cart-area div {
+  background-color: rgb(29, 124, 42);
+  width: 15rem;
+  height: 7rem;
+  padding: 1.6rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+}
+.header .cart-area div:hover {
+  box-shadow: 0.3rem 0.3rem 0.5rem #fff;
+}
+
+.header .cart-area div i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.header .cart-area div h4 {
+  font-size: 16px;
+}
+
+/* Header End */
+
+/* <!-- main start --> */
+.main-menu {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.side-bar {
+  flex: 1;
+  padding-left: 1rem;
+}
+.main-item {
+  flex: 3;
+}
+
+.search-area {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+.search-area .sort-by select {
+  padding: 0.3rem;
+}
+.search-area .search input {
+  padding: 0.3rem;
+}
+
+.search-area .search i {
+  background-color: darkgrey;
+  padding: 0.3rem;
+  border: 1px solid gray;
+  border-radius: 0.1rem;
+  margin-left: -0.4rem;
+}
+/* <!-- main End --> */
+
+/* Footer start */
+.footer {
+  background-color: rgb(7, 179, 55);
+  min-height: 10vh;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .subscribe {
+  margin-top: 0.4rem;
+}
+
+.footer .subscribe label {
+  color: #fff;
+}
+.footer .subscribe input {
+  padding: 0.3rem;
+}
+
+.footer .subscribe button {
+  padding: 0.3rem;
+  margin-left: -0.4rem;
+}
+
+.footer .copyright {
+  color: #fff;
+  margin-top: 0.4rem;
+}
+/* Footer End */

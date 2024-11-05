@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is my ecommerce project online shop"
+    />
+    <title>Online Shop By shoaib</title>
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 991px)"
+      href="mobail.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 992px)"
+      href="desktop.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="top-nav">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="Home.html">Logout</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="profile.html"
+              ><img src="images/shoaib.png" alt="profile logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="lower-nav">
+        <ul>
+          <li><a class="font1" href="#">Online Shop By Shoaib</a></li>
+          <li><a class="font2" href="#">Cart-5 $24.40 Product</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header start -->
+    <header>
+      <div class="header">
+        <div class="banner-area">
+          <marquee behavior="" direction="">50% Sales going on</marquee>
+        </div>
+        <div class="cart-area">
+          <div class="shiping-cart">
+            <i class="fa fa-truck" aria-hidden="true"></i>
+            <h4>Shipping Whithin 7 days</h4>
+          </div>
+          <div class="support-cart">
+            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+            <h4>Support 24-7</h4>
+          </div>
+          <div class="safe-payment">
+            <i class="fa fa-credit-card" aria-hidden="true"></i>
+            <h4>Safe Payment</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- main start -->
+    <main>
+      <div class="main-menu">
+        <div class="side-bar">
+          <section class="side-one">
+            <h2>Catagory</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="Dress" id="Dress" />
+                <label for="Dress">Dress</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoe" id="shoe" />
+                <label for="shoe">Footwear</label>
+              </li>
+              <li>
+                <input type="checkbox" name="skin" id="skin" />
+                <label for="skin">Skin-care</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Beauty" id="Beauty" />
+                <label for="Beauty">Ornament</label>
+              </li>
+              <li>
+                <input type="checkbox" name="perfume" id="perfume" />
+                <label for="perfume">Perfume</label>
+              </li>
+            </ul>
+          </section>
+          <section class="side-two">
+            <h2>Gendered</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="male" id="male" />
+                <label for="male">Male</label>
+              </li>
+              <li>
+                <input type="checkbox" name="frmale" id="frmale" />
+                <label for="female">Female</label>
+              </li>
+              <li>
+                <input type="checkbox" name="child" id="child" />
+                <label for="child">Children</label>
+              </li>
+            </ul>
+          </section>
+          <section class="side-three">
+            <h2>Prices</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="1$-5$" id="1$-5$" />
+                <label for="1$-5$">1$-5$</label>
+              </li>
+              <li>
+                <input type="checkbox" name="5$-8$" id="5$-8$" />
+                <label for="5$-8$">5$-8$</label>
+              </li>
+              <li>
+                <input type="checkbox" name="10$-15$" id="10$-15$" />
+                <label for="10$-15$">10$-15$</label>
+              </li>
+              <li>
+                <input type="checkbox" name="15$-20$" id="15$-20$" />
+                <label for="15$-20$">15$-20$</label>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="main-item">
+          <div class="search-area">
+            <div class="sort-by">
+              <label for="sort-by">Sort By:</label>
+              <select name="sort-by" id="sort-by">
+                <option value="sold">Most Sold First</option>
+                <option value="rated">Most rated First</option>
+                <option value="Cheapest">Cheapest First</option>
+                <option value="Newest">Newest Fisrt</option>
+                <option value="Biggest">Biggest Discount First</option>
+              </select>
+            </div>
+            <div class="search">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search Product"
+              />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="product-area"></div>
+        </div>
+      </div>
+    </main>
+    <!-- main End -->
+
+    <footer>
+      <div class="footer">
+        <div class="subscribe">
+          <label for="subscribe">Subscribe To Newsletter:</label>
+          <input
+            type="email"
+            name="subscribe"
+            id="subscribe"
+            placeholder="Your Email Address"
+          />
+          <button>Subscribe</button>
+        </div>
+        <div class="copyright">&copy;CopyRight To My Online shop by Shoaib</div>
+      </div>
+    </footer>
+  </body>
+</html>
